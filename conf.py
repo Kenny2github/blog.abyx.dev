@@ -43,6 +43,19 @@ templates_path = ['_templates']
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
+rst_prolog = """
+.. role:: python(code)
+    :language: python
+    :class: highlight
+"""
+
+rst_epilog = """
+
+----
+
+*If you have something to say about this page,
+feel free to* `let me know <https://abyx.dev/contact>`_!
+"""
 
 # -- Options for HTML output -------------------------------------------------
 
