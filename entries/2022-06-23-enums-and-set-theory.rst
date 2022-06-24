@@ -167,7 +167,7 @@ However, using :py:class:`~enum.Flag` instances as set stand-ins has its own dra
   * Asymmetric difference (can't do :python:`X - Y`)
   * Superset and subset (can't do :python:`X < Y` or :python:`X > Y`)
 
-* Obviously, you're limited to the universe you define. Regular :py:class:`set` instances can hold any hashable object. (That would make :py:class:`collections.Hashable` the universe if it was enumerable.)
+* Obviously, you're limited to the universe you define. Regular :py:class:`set` instances can hold any hashable object. (That would make :py:class:`collections.abc.Hashable` the universe if it was enumerable.)
 * :py:class:`set` instances are mutable; :py:class:`~enum.Flag` instances are not.
 * :py:class:`set` instances can be nested; :py:class:`~enum.Flag` instances cannot. Notably, each enum member is both a singleton set and the single member of that set at the same time.
 
