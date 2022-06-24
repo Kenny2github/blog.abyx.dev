@@ -1,5 +1,12 @@
+:og:description: I very rarely write blog posts, but here they are in case you'd like to read them.
+
 Welcome to AbyxDev's Blog!
 ==========================
+
+.. image:: _static/Abyx.png
+   :align: right
+   :alt: AbyxDev
+   :height: 140px
 
 I very rarely write blog posts. Here they are in reverse chronological order:
 

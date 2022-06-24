@@ -29,6 +29,7 @@ author = 'AbyxDev'
 # ones.
 extensions = [
     'sphinx.ext.intersphinx',
+    'sphinxext.opengraph',
 ]
 
 intersphinx_mapping = {
@@ -71,3 +72,11 @@ html_static_path = ['_static']
 
 html_title = "AbyxDev's Blog" # remove the word "documentation"
 html_favicon = '_static/favicon.ico'
+
+# -- Options for OpenGraph meta tags -----------------------------------------
+
+ogp_site_url = 'https://blog.abyx.dev'
+ogp_site_name = "AbyxDev's Blog"
+ogp_image = '_static/Abyx.png'
+ogp_image_alt = 'AbyxDev' # no alt for decorative image
+ogp_type = 'article'

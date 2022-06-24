@@ -1,3 +1,5 @@
+:og:description: Python enum flags are cool, and can mimic sets. What does that even mean?
+
 Python Enum Flags and Basic Set Theory
 ======================================
 
