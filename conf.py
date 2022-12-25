@@ -42,7 +42,7 @@ templates_path = ['_templates']
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'README']
 
 rst_prolog = """
 .. role:: python(code)
@@ -78,5 +78,5 @@ html_favicon = '_static/favicon.ico'
 ogp_site_url = 'https://blog.abyx.dev'
 ogp_site_name = "AbyxDev's Blog"
 ogp_image = '_static/Abyx.png'
-ogp_image_alt = 'AbyxDev' # no alt for decorative image
+ogp_image_alt = 'AbyxDev'
 ogp_type = 'article'
